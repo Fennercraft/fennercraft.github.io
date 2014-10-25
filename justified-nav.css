@@ -34,7 +34,7 @@ body {
   color: #777;
   text-align: center;
   background-color: #e5e5e5; /* Old browsers */
-  background-image: url('mine.png'),
+  background: url('mine.png') no-repeat center center;
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
   background-repeat: repeat-x; /* Repeat the gradient */
   border-bottom: 1px solid #d5d5d5;

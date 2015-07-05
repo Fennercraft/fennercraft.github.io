@@ -25,8 +25,7 @@
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+	
 </head>
 
 <body>
@@ -81,7 +80,10 @@
                 <div class="fill" style="background-image:url('http://i.imgur.com/GiimEWH.png');"></div>
                 <div class="carousel-caption">
                     <h2>Providing you with a plethora of unique features</h2>
-                </div>
+				<button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">
+					Join us now!
+					</button>
+					</div>
             </div>
             <div class="item">
                 <div class="fill" style="background-image:url('http://imgur.com/P7oW7cH.png');"></div>
@@ -119,7 +121,7 @@
             <div class="col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h4></i> Our Staff Team</h4>
+                        <h4></i>Our Staff Team</h4>
                     </div>
                     <div class="panel-body">
                         <p>Here at Fenner's Prison we only recruit the best staff meaning we have an amazing staff team working for us!</p>
@@ -149,19 +151,27 @@
                     </div>
                 </div>
             </div>
-			<center>
-			  <div class="col-md-12">
-                        <h3></i><center><b>Sign me up!</b></center></h3>
-                        <p>You can join Fenner's Prison by opening minecraft and entering the server IP: fenners.tk:25674 to join our server!</p>
-							<div class='btn-group'>
-									<a class='btn btn-large' data-toggle='modal' href='#play-now'>IP:</a>
-									<a class='btn btn-large btn-primary'>
-								<b>fenners.tk:25674</b>
-							</a>
-						</div>
-            </div>
-			</center>
         </div>
+		<!-- Button trigger modal -->
+		<center>
+<button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">
+					Join us now!
+					</button>
+					</center>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Join us now using the IP: fenners.tk:25674</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="join.png" alt="">
+      </div>
+    </div>
+  </div>
+</div>
         <!-- /.row -->
 
         
